@@ -3,7 +3,7 @@
 const fs = require("fs");
 
 fs.readFile("./test.txt", "utf-8", (error, data) => {
-  //   console.log(data);
+  // console.log(data);
 
   fs.mkdirSync("./files", () => {});
 
